@@ -1,0 +1,11 @@
+package:
+    destination: io.padarom.plugins.whatsnew.tar
+    files:
+        exclude:
+            - README.md
+            - .git
+            - .gitignore
+            - .travis.yml
+        tarball:
+            - files
+            - templates
